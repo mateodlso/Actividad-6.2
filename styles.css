@@ -1,5 +1,7 @@
 body {
-    background-color: rgb(255, 255, 165);
+    background-image: url('fondo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .image{
@@ -21,7 +23,7 @@ body {
     text-align: center;
     margin: 0 auto;
     display: block;
-    width: 200px
+    width: 200px;
 }
 
 h1{
@@ -36,4 +38,8 @@ p{
 h2{
     text-align: center;
     justify-content: center;
+
+}
+.image{
+    border-radius: 5%;
 }
