@@ -1,11 +1,15 @@
 body {
-    background-color: rgb(255, 255, 165);
+    background-image: url('fondo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .image{
     border: 5px solid green;
     border-radius: 10px;
     height: 400px;
+    margin: 0 auto;
+    display: block;
 }
 
 .link-button {
@@ -25,3 +29,28 @@ body {
 }
 /* cambie background-color: #f2f2f2; Y border: 1px solid gray Y box-shadow: 2px 3px #888888*/
 /*agregue font size y fopnt family*/
+=======
+    box-shadow: 2px 3px #888888;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    justify-content: center;
+}
+
+h2{
+    text-align: center;
+    justify-content: center;
+
+}
+.image{
+    border-radius: 5%;
+}
